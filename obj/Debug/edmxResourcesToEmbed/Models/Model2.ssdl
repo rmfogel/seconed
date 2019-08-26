@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KerenTorahModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Budgets">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sum" Type="int" Nullable="false" />
+    <Property Name="DateOfAdd" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Chaluka">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="SumKerenGive" Type="int" Nullable="false" />
+    <Property Name="SumkolelGive" Type="int" Nullable="false" />
+    <Property Name="Precent" Type="int" Nullable="false" />
+    <Property Name="SumGivePrecent" Type="int" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Help">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="HistoryOutlay">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Sum" Type="float" />
+    <Property Name="ProjectId" Type="int" Nullable="false" />
+    <Property Name="TransferId" Type="int" Nullable="false" />
+    <Property Name="PersonId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Instutute">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="20" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="20" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="40" />
+    <Property Name="Bank" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="NumSniff" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="AccountNumber" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="DateOfAdd" Type="date" />
+    <Property Name="DateOfDelete" Type="date" />
+  </EntityType>
+  <EntityType Name="Kolel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Adress" Type="nvarchar" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Bank" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="NumSniff" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="AccountNumber" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="DateOfAdd" Type="date" Nullable="false" />
+    <Property Name="DateOfDelete" Type="date" />
+    <Property Name="HelpId" Type="int" Nullable="false" />
+    <Property Name="Ok" Type="bit" />
+    <Property Name="Style" Type="nvarchar" MaxLength="20" />
+    <Property Name="Space" Type="nvarchar" MaxLength="20" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="10" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="6" Nullable="false" />
+    <Property Name="CalcBudget" Type="float" />
+  </EntityType>
+  <EntityType Name="Outlay">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Sum" Type="float" />
+    <Property Name="ProjectId" Type="int" Nullable="false" />
+    <Property Name="TransferId" Type="int" Nullable="false" />
+    <Property Name="PersonId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Persons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleId" Type="int" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="Street" Type="nvarchar" MaxLength="15" />
+    <Property Name="City" Type="nvarchar" MaxLength="10" />
+    <Property Name="NumHouse" Type="int" />
+    <Property Name="CellPhone" Type="nvarchar" MaxLength="10" />
+    <Property Name="IdentityOrPassport" Type="nvarchar" MaxLength="20" />
+    <Property Name="Bank" Type="nvarchar" MaxLength="15" />
+    <Property Name="NumSniff" Type="nvarchar" MaxLength="15" />
+    <Property Name="AccountNumber" Type="nvarchar" MaxLength="20" />
+    <Property Name="Staete" Type="bit" />
+    <Property Name="InstituteId" Type="int" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="DateOfAdd" Type="date" Nullable="false" />
+    <Property Name="DateOfDelete" Type="date" />
+    <Property Name="UserName" Type="nvarchar" MaxLength="20" />
+    <Property Name="Password" Type="nvarchar" MaxLength="6" />
+    <Property Name="Children" Type="int" />
+  </EntityType>
+  <EntityType Name="Projects">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="Transfers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK_HistoryOutlay_Persons">
+    <End Role="Persons" Type="Self.Persons" Multiplicity="1" />
+    <End Role="HistoryOutlay" Type="Self.HistoryOutlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persons">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HistoryOutlay">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryOutlay_Projects">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+    <End Role="HistoryOutlay" Type="Self.HistoryOutlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="HistoryOutlay">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryOutlay_Transfers">
+    <End Role="Transfers" Type="Self.Transfers" Multiplicity="1" />
+    <End Role="HistoryOutlay" Type="Self.HistoryOutlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transfers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="HistoryOutlay">
+        <PropertyRef Name="TransferId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Kolel_Help">
+    <End Role="Help" Type="Self.Help" Multiplicity="1" />
+    <End Role="Kolel" Type="Self.Kolel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Help">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Kolel">
+        <PropertyRef Name="HelpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Outlay_Persons">
+    <End Role="Persons" Type="Self.Persons" Multiplicity="1" />
+    <End Role="Outlay" Type="Self.Outlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persons">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Outlay">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Outlay_Projects">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+    <End Role="Outlay" Type="Self.Outlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Outlay">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Outlay_Transfers">
+    <End Role="Transfers" Type="Self.Transfers" Multiplicity="1" />
+    <End Role="Outlay" Type="Self.Outlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transfers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Outlay">
+        <PropertyRef Name="TransferId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Persons_Kolel">
+    <End Role="Kolel" Type="Self.Kolel" Multiplicity="0..1" />
+    <End Role="Persons" Type="Self.Persons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kolel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Persons">
+        <PropertyRef Name="InstituteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Persons_Roles">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Persons" Type="Self.Persons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Persons">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KerenTorahModel1StoreContainer">
+    <EntitySet Name="Budgets" EntityType="Self.Budgets" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Chaluka" EntityType="Self.Chaluka" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Help" EntityType="Self.Help" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="HistoryOutlay" EntityType="Self.HistoryOutlay" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Instutute" EntityType="Self.Instutute" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Kolel" EntityType="Self.Kolel" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Outlay" EntityType="Self.Outlay" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Persons" EntityType="Self.Persons" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Projects" EntityType="Self.Projects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Transfers" EntityType="Self.Transfers" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_HistoryOutlay_Persons" Association="Self.FK_HistoryOutlay_Persons">
+      <End Role="Persons" EntitySet="Persons" />
+      <End Role="HistoryOutlay" EntitySet="HistoryOutlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryOutlay_Projects" Association="Self.FK_HistoryOutlay_Projects">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="HistoryOutlay" EntitySet="HistoryOutlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryOutlay_Transfers" Association="Self.FK_HistoryOutlay_Transfers">
+      <End Role="Transfers" EntitySet="Transfers" />
+      <End Role="HistoryOutlay" EntitySet="HistoryOutlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Kolel_Help" Association="Self.FK_Kolel_Help">
+      <End Role="Help" EntitySet="Help" />
+      <End Role="Kolel" EntitySet="Kolel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Outlay_Persons" Association="Self.FK_Outlay_Persons">
+      <End Role="Persons" EntitySet="Persons" />
+      <End Role="Outlay" EntitySet="Outlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Outlay_Projects" Association="Self.FK_Outlay_Projects">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="Outlay" EntitySet="Outlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Outlay_Transfers" Association="Self.FK_Outlay_Transfers">
+      <End Role="Transfers" EntitySet="Transfers" />
+      <End Role="Outlay" EntitySet="Outlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Persons_Kolel" Association="Self.FK_Persons_Kolel">
+      <End Role="Kolel" EntitySet="Kolel" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Persons_Roles" Association="Self.FK_Persons_Roles">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

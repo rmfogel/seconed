@@ -1,0 +1,325 @@
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\Server2.dll.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\Server2.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\Server2.pdb
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\csc.exe
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\csc.exe.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\csc.rsp
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\csi.exe
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\csi.exe.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\csi.rsp
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.CSharp.Core.targets
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.Managed.Core.targets
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.AppContext.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Collections.Immutable.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Console.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Diagnostics.StackTrace.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.IO.Compression.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.IO.FileSystem.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.IO.Pipes.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Reflection.Metadata.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Security.AccessControl.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Security.Claims.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Security.Principal.Windows.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Text.Encoding.CodePages.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.ValueTuple.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Xml.ReaderWriter.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Xml.XmlDocument.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Xml.XPath.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\System.Xml.XPath.XDocument.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\vbc.exe
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\vbc.exe.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\vbc.rsp
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\VBCSCompiler.exe
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\roslyn\VBCSCompiler.exe.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\Newtonsoft.Json.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\System.Net.Http.Formatting.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\System.Web.Http.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\System.Web.Http.WebHost.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\Newtonsoft.Json.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\System.Net.Http.Formatting.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\System.Web.Http.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\System.Web.Http.WebHost.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\obj\Debug\Server2.csprojAssemblyReference.cache
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\obj\Debug\Server2.csproj.CoreCompileInputs.cache
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\obj\Debug\Server2.csproj.CopyComplete
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\obj\Debug\Server2.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\obj\Debug\Server2.pdb
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\EntityFramework.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\EntityFramework.SqlServer.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\EntityFramework.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\Server2\Server2\bin\EntityFramework.SqlServer.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\Server2.dll.config
+E:\הנחית פרויקטים\Server2\Server2\bin\Server2.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\Server2.pdb
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\csc.exe
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\csc.exe.config
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\csc.rsp
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\csi.exe
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\csi.exe.config
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\csi.rsp
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.Managed.Core.targets
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.AppContext.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Collections.Immutable.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Console.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.IO.Compression.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.IO.FileSystem.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.IO.Pipes.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Reflection.Metadata.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Security.AccessControl.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Security.Claims.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Security.Principal.Windows.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.ValueTuple.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Xml.XmlDocument.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Xml.XPath.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\vbc.exe
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\vbc.exe.config
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\vbc.rsp
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\VBCSCompiler.exe
+E:\הנחית פרויקטים\Server2\Server2\bin\roslyn\VBCSCompiler.exe.config
+E:\הנחית פרויקטים\Server2\Server2\bin\EntityFramework.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\EntityFramework.SqlServer.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\Newtonsoft.Json.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Net.Http.Formatting.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Web.Http.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Web.Http.WebHost.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\EntityFramework.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\EntityFramework.SqlServer.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\Newtonsoft.Json.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Net.Http.Formatting.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Web.Http.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Web.Http.WebHost.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\הנחית פרויקטים\Server2\Server2\obj\Debug\Server2.csprojAssemblyReference.cache
+E:\הנחית פרויקטים\Server2\Server2\obj\Debug\Server2.csproj.CoreCompileInputs.cache
+E:\הנחית פרויקטים\Server2\Server2\obj\Debug\Server2.csproj.CopyComplete
+E:\הנחית פרויקטים\Server2\Server2\obj\Debug\Server2.dll
+E:\הנחית פרויקטים\Server2\Server2\obj\Debug\Server2.pdb
+E:\הנחית פרויקטים\Server2\Server2\bin\ExcelDataReader.DataSet.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\ExcelDataReader.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\ExcelDataReader.pdb
+E:\הנחית פרויקטים\Server2\Server2\bin\ExcelDataReader.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\ExcelDataReader.DataSet.pdb
+E:\הנחית פרויקטים\Server2\Server2\bin\ExcelDataReader.DataSet.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\Ptv.XServer.Controls.Map.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Web.Cors.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Web.Http.Cors.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\Ptv.Components.Projections.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\Ptv.XServer.Controls.Map.pdb
+E:\הנחית פרויקטים\Server2\Server2\bin\Ptv.XServer.Controls.Map.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\System.Web.Http.Cors.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\Ptv.Components.Projections.pdb
+E:\הנחית פרויקטים\Server2\Server2\bin\Ptv.Components.Projections.xml
+E:\הנחית פרויקטים\Server2\Server2\bin\de\Ptv.XServer.Controls.Map.resources.dll
+E:\הנחית פרויקטים\Server2\Server2\bin\Ptv.XServer.Controls.Map.XmlSerializers.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Server2.dll.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Server2.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Server2.pdb
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\csc.exe
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\csc.exe.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\csc.rsp
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\csi.exe
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\csi.exe.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\csi.rsp
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CSharp.Core.targets
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.Managed.Core.targets
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.AppContext.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Collections.Immutable.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Console.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Diagnostics.StackTrace.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.Compression.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.FileSystem.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.Pipes.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Reflection.Metadata.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.AccessControl.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Claims.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Principal.Windows.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Text.Encoding.CodePages.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.ValueTuple.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Xml.ReaderWriter.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Xml.XmlDocument.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Xml.XPath.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\System.Xml.XPath.XDocument.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\vbc.exe
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\vbc.exe.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\vbc.rsp
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\VBCSCompiler.exe
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\roslyn\VBCSCompiler.exe.config
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\EntityFramework.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\EntityFramework.SqlServer.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.DataSet.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\itextsharp.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Newtonsoft.Json.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Ptv.XServer.Controls.Map.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Net.Http.Formatting.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Web.Cors.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Web.Http.Cors.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Web.Http.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Web.Http.WebHost.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Ptv.Components.Projections.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\EntityFramework.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\EntityFramework.SqlServer.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.pdb
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.DataSet.pdb
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.DataSet.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\itextsharp.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Newtonsoft.Json.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Ptv.XServer.Controls.Map.pdb
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Ptv.XServer.Controls.Map.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Net.Http.Formatting.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Web.Http.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Web.Http.Cors.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\System.Web.Http.WebHost.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Ptv.Components.Projections.pdb
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Ptv.Components.Projections.xml
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\de\Ptv.XServer.Controls.Map.resources.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\bin\Ptv.XServer.Controls.Map.XmlSerializers.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\obj\Debug\Server2.csprojAssemblyReference.cache
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\obj\Debug\Server2.csproj.CoreCompileInputs.cache
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\obj\Debug\Server2.csproj.CopyComplete
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\obj\Debug\Server2.dll
+O:\הנדסאות תשעח\שרי סלוד\פרוייקט\שרת מעודכן\Server2\Server2\obj\Debug\Server2.pdb
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Server2.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Server2.pdb
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\csc.exe
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\csc.exe.config
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\csc.rsp
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\csi.exe
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\csi.exe.config
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\csi.rsp
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.AppContext.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Console.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.Compression.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.IO.Pipes.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Claims.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.ValueTuple.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Xml.XPath.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\vbc.exe
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\vbc.exe.config
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\vbc.rsp
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\VBCSCompiler.exe
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\EntityFramework.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\EntityFramework.SqlServer.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.DataSet.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Newtonsoft.Json.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Ptv.XServer.Controls.Map.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Net.Http.Formatting.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Web.Cors.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Web.Http.Cors.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Web.Http.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Web.Http.WebHost.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Ptv.Components.Projections.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\EntityFramework.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\EntityFramework.SqlServer.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.pdb
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.DataSet.pdb
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\ExcelDataReader.DataSet.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Newtonsoft.Json.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Ptv.XServer.Controls.Map.pdb
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Ptv.XServer.Controls.Map.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Net.Http.Formatting.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Web.Http.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Web.Http.Cors.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\System.Web.Http.WebHost.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Ptv.Components.Projections.pdb
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Ptv.Components.Projections.xml
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\de\Ptv.XServer.Controls.Map.resources.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Ptv.XServer.Controls.Map.XmlSerializers.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\obj\Debug\Server2.csprojAssemblyReference.cache
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\obj\Debug\Server2.csproj.CoreCompileInputs.cache
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\obj\Debug\Server2.csproj.CopyComplete
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\obj\Debug\Server2.dll
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\obj\Debug\Server2.pdb
+C:\Users\This_User\Downloads\jm_7XfDaLMifE2zbE3\שרת מעודכן\Server2\Server2\bin\Server2.dll.config

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KerenTorahModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Budgets">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sum" Type="Int32" Nullable="false" />
+    <Property Name="DateOfAdd" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Chaluka">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SumKerenGive" Type="Int32" Nullable="false" />
+    <Property Name="SumkolelGive" Type="Int32" Nullable="false" />
+    <Property Name="Precent" Type="Int32" Nullable="false" />
+    <Property Name="SumGivePrecent" Type="Int32" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+  </EntityType>
+  <EntityType Name="Help">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Kolel" Relationship="Self.FK_Kolel_Help" FromRole="Help" ToRole="Kolel" />
+  </EntityType>
+  <EntityType Name="HistoryOutlay">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Sum" Type="Double" />
+    <Property Name="ProjectId" Type="Int32" Nullable="false" />
+    <Property Name="TransferId" Type="Int32" Nullable="false" />
+    <Property Name="PersonId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Persons" Relationship="Self.FK_HistoryOutlay_Persons" FromRole="HistoryOutlay" ToRole="Persons" />
+    <NavigationProperty Name="Projects" Relationship="Self.FK_HistoryOutlay_Projects" FromRole="HistoryOutlay" ToRole="Projects" />
+    <NavigationProperty Name="Transfers" Relationship="Self.FK_HistoryOutlay_Transfers" FromRole="HistoryOutlay" ToRole="Transfers" />
+  </EntityType>
+  <EntityType Name="Instutute">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="City" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Adress" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="Bank" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NumSniff" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AccountNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateOfAdd" Type="DateTime" Precision="0" />
+    <Property Name="DateOfDelete" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="Kolel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Adress" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Bank" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="NumSniff" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="AccountNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DateOfAdd" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DateOfDelete" Type="DateTime" Precision="0" />
+    <Property Name="HelpId" Type="Int32" Nullable="false" />
+    <Property Name="Ok" Type="Boolean" />
+    <Property Name="Style" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Space" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="6" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CalcBudget" Type="Double" />
+    <NavigationProperty Name="Help" Relationship="Self.FK_Kolel_Help" FromRole="Kolel" ToRole="Help" />
+    <NavigationProperty Name="Persons" Relationship="Self.FK_Persons_Kolel" FromRole="Kolel" ToRole="Persons" />
+  </EntityType>
+  <EntityType Name="Outlay">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Sum" Type="Double" />
+    <Property Name="ProjectId" Type="Int32" Nullable="false" />
+    <Property Name="TransferId" Type="Int32" Nullable="false" />
+    <Property Name="PersonId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Persons" Relationship="Self.FK_Outlay_Persons" FromRole="Outlay" ToRole="Persons" />
+    <NavigationProperty Name="Projects" Relationship="Self.FK_Outlay_Projects" FromRole="Outlay" ToRole="Projects" />
+    <NavigationProperty Name="Transfers" Relationship="Self.FK_Outlay_Transfers" FromRole="Outlay" ToRole="Transfers" />
+  </EntityType>
+  <EntityType Name="Persons">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleId" Type="Int32" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Street" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="City" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="NumHouse" Type="Int32" />
+    <Property Name="CellPhone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="IdentityOrPassport" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Bank" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="NumSniff" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="AccountNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Staete" Type="Boolean" />
+    <Property Name="InstituteId" Type="Int32" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DateOfAdd" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DateOfDelete" Type="DateTime" Precision="0" />
+    <Property Name="UserName" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="Children" Type="Int32" />
+    <NavigationProperty Name="HistoryOutlay" Relationship="Self.FK_HistoryOutlay_Persons" FromRole="Persons" ToRole="HistoryOutlay" />
+    <NavigationProperty Name="Kolel" Relationship="Self.FK_Persons_Kolel" FromRole="Persons" ToRole="Kolel" />
+    <NavigationProperty Name="Outlay" Relationship="Self.FK_Outlay_Persons" FromRole="Persons" ToRole="Outlay" />
+    <NavigationProperty Name="Roles" Relationship="Self.FK_Persons_Roles" FromRole="Persons" ToRole="Roles" />
+  </EntityType>
+  <EntityType Name="Projects">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="HistoryOutlay" Relationship="Self.FK_HistoryOutlay_Projects" FromRole="Projects" ToRole="HistoryOutlay" />
+    <NavigationProperty Name="Outlay" Relationship="Self.FK_Outlay_Projects" FromRole="Projects" ToRole="Outlay" />
+  </EntityType>
+  <EntityType Name="Roles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Persons" Relationship="Self.FK_Persons_Roles" FromRole="Roles" ToRole="Persons" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Transfers">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="HistoryOutlay" Relationship="Self.FK_HistoryOutlay_Transfers" FromRole="Transfers" ToRole="HistoryOutlay" />
+    <NavigationProperty Name="Outlay" Relationship="Self.FK_Outlay_Transfers" FromRole="Transfers" ToRole="Outlay" />
+  </EntityType>
+  <Association Name="FK_Kolel_Help">
+    <End Role="Help" Type="Self.Help" Multiplicity="1" />
+    <End Role="Kolel" Type="Self.Kolel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Help">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Kolel">
+        <PropertyRef Name="HelpId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryOutlay_Persons">
+    <End Role="Persons" Type="Self.Persons" Multiplicity="1" />
+    <End Role="HistoryOutlay" Type="Self.HistoryOutlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persons">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="HistoryOutlay">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryOutlay_Projects">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+    <End Role="HistoryOutlay" Type="Self.HistoryOutlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="HistoryOutlay">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_HistoryOutlay_Transfers">
+    <End Role="Transfers" Type="Self.Transfers" Multiplicity="1" />
+    <End Role="HistoryOutlay" Type="Self.HistoryOutlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transfers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="HistoryOutlay">
+        <PropertyRef Name="TransferId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Persons_Kolel">
+    <End Role="Kolel" Type="Self.Kolel" Multiplicity="0..1" />
+    <End Role="Persons" Type="Self.Persons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kolel">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Persons">
+        <PropertyRef Name="InstituteId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Outlay_Persons">
+    <End Role="Persons" Type="Self.Persons" Multiplicity="1" />
+    <End Role="Outlay" Type="Self.Outlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Persons">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Outlay">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Outlay_Projects">
+    <End Role="Projects" Type="Self.Projects" Multiplicity="1" />
+    <End Role="Outlay" Type="Self.Outlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Projects">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Outlay">
+        <PropertyRef Name="ProjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Outlay_Transfers">
+    <End Role="Transfers" Type="Self.Transfers" Multiplicity="1" />
+    <End Role="Outlay" Type="Self.Outlay" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Transfers">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Outlay">
+        <PropertyRef Name="TransferId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Persons_Roles">
+    <End Role="Roles" Type="Self.Roles" Multiplicity="1" />
+    <End Role="Persons" Type="Self.Persons" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Roles">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Persons">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KerenTorahEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Budgets" EntityType="Self.Budgets" />
+    <EntitySet Name="Chaluka" EntityType="Self.Chaluka" />
+    <EntitySet Name="Help" EntityType="Self.Help" />
+    <EntitySet Name="HistoryOutlay" EntityType="Self.HistoryOutlay" />
+    <EntitySet Name="Instutute" EntityType="Self.Instutute" />
+    <EntitySet Name="Kolel" EntityType="Self.Kolel" />
+    <EntitySet Name="Outlay" EntityType="Self.Outlay" />
+    <EntitySet Name="Persons" EntityType="Self.Persons" />
+    <EntitySet Name="Projects" EntityType="Self.Projects" />
+    <EntitySet Name="Roles" EntityType="Self.Roles" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Transfers" EntityType="Self.Transfers" />
+    <AssociationSet Name="FK_Kolel_Help" Association="Self.FK_Kolel_Help">
+      <End Role="Help" EntitySet="Help" />
+      <End Role="Kolel" EntitySet="Kolel" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryOutlay_Persons" Association="Self.FK_HistoryOutlay_Persons">
+      <End Role="Persons" EntitySet="Persons" />
+      <End Role="HistoryOutlay" EntitySet="HistoryOutlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryOutlay_Projects" Association="Self.FK_HistoryOutlay_Projects">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="HistoryOutlay" EntitySet="HistoryOutlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_HistoryOutlay_Transfers" Association="Self.FK_HistoryOutlay_Transfers">
+      <End Role="Transfers" EntitySet="Transfers" />
+      <End Role="HistoryOutlay" EntitySet="HistoryOutlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Persons_Kolel" Association="Self.FK_Persons_Kolel">
+      <End Role="Kolel" EntitySet="Kolel" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Outlay_Persons" Association="Self.FK_Outlay_Persons">
+      <End Role="Persons" EntitySet="Persons" />
+      <End Role="Outlay" EntitySet="Outlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Outlay_Projects" Association="Self.FK_Outlay_Projects">
+      <End Role="Projects" EntitySet="Projects" />
+      <End Role="Outlay" EntitySet="Outlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Outlay_Transfers" Association="Self.FK_Outlay_Transfers">
+      <End Role="Transfers" EntitySet="Transfers" />
+      <End Role="Outlay" EntitySet="Outlay" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Persons_Roles" Association="Self.FK_Persons_Roles">
+      <End Role="Roles" EntitySet="Roles" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

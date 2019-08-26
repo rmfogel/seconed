@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="84d1b68fa14646fa8e41c09d4f1c0619" Name="Diagram1">
+        <EntityTypeShape EntityType="dbkolelModel.Budgets" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Chaluka" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Help" Width="1.5" PointX="5.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.HistoryOutlay" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Instutute" Width="1.5" PointX="9.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Kolel" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Outlay" Width="1.5" PointX="8.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Persons" Width="1.5" PointX="3" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Projects" Width="1.5" PointX="3" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Roles" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="dbkolelModel.Transfers" Width="1.5" PointX="3" PointY="12.875" IsExpanded="true" />
+        <AssociationConnector Association="dbkolelModel.FK_HistoryOutlay_Persons" ManuallyRouted="false" />
+        <AssociationConnector Association="dbkolelModel.FK_HistoryOutlay_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="dbkolelModel.FK_HistoryOutlay_Transfers" ManuallyRouted="false" />
+        <AssociationConnector Association="dbkolelModel.FK_Persons_Kolel" ManuallyRouted="false" />
+        <AssociationConnector Association="dbkolelModel.FK_Outlay_Persons" ManuallyRouted="false" />
+        <AssociationConnector Association="dbkolelModel.FK_Outlay_Persons1" ManuallyRouted="false" />
+        <AssociationConnector Association="dbkolelModel.FK_Outlay_Projects" ManuallyRouted="false" />
+        <AssociationConnector Association="dbkolelModel.FK_Outlay_Transfers" ManuallyRouted="false" />
+        <AssociationConnector Association="dbkolelModel.FK_Persons_Roles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
